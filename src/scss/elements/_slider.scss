@@ -1,0 +1,27 @@
+.slider {
+  position: relative;
+  margin-top: 50px;
+  .slider__prev-button, .slider__next-button {
+    width: 120px;
+    border: .1px solid #ddd;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #ddd;
+    color: #000;
+    border-radius: 4px;
+    padding: 10px 0;
+    transition: 0.4s;
+  }
+  .slider__prev-button {
+    margin-right: 10px;
+  }
+  .slider__next-button {
+    margin-left: 10px;
+  }
+  .slider__prev-button:hover, .slider__next-button:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    border: .1px solid #000;
+  }
+}
